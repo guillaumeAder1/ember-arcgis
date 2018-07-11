@@ -1,0 +1,7 @@
+/* esri styles */
+
+@import url('https://js.arcgis.com/3.20/esri/css/esri.css');
+#themap {
+    width: 300px;
+    height: 300px;
+}
