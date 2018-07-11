@@ -1,7 +1,9 @@
 <h2>Mapviewer</h2>
 <ul>
     {{#each people as |person|}}
-    <li>{{person}} ;|</li>
+    <li {{action "showPerson" person}}>{{person}}</li>
     {{/each}}
+
+    <hr/>
 </ul>
 <div id="themap"></div>
